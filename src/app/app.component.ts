@@ -7,5 +7,5 @@ import { TopbarComponent } from './components/topbar/topbar.component';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'client';
+  title = 'Gaji';
 }
