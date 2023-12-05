@@ -1,1 +1,12 @@
-<p>topbar works!</p>
+<nav>
+    <div class="navbar-background">
+        <div class="navbar-back">
+            <img *ngIf="backArrow" src="assets/svg/ic_common_arrow_back.svg" alt="arrow">
+        </div>
+        <div class="navbar-title">
+            <span class="navbar-text-title">{{title}}</span>
+        </div>
+        <div class="navbar-end">
+        </div>
+    </div>
+</nav>

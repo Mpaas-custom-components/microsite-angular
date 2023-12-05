@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-topbar',
@@ -6,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./topbar.component.css']
 })
 export class TopbarComponent {
+  @Input() title: String = '';
+  @Input() backArrow: Boolean | undefined = true;
 
+  constructor(private location: Location) {
+    this.title = "Default"
+  }
+
+  goBack():void {
+    this.location.back()
+  }
 }
