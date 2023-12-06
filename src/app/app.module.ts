@@ -12,6 +12,9 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatIconModule} from '@angular/material/icon';
 import {FormControl, FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { ToggleTabsComponent } from './components/toggle-tabs/toggle-tabs.component';
+import { CardCategoryComponent } from './components/card-category/card-category.component';
+import { NgApexchartsModule } from 'ng-apexcharts';
+import { PieChartComponent } from './components/pie-chart/pie-chart.component';
 
 
 
@@ -21,7 +24,9 @@ import { ToggleTabsComponent } from './components/toggle-tabs/toggle-tabs.compon
     CardComponent,
     TopbarComponent,
     HomeComponent,
-    ToggleTabsComponent
+    ToggleTabsComponent,
+    CardCategoryComponent,
+    PieChartComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +35,8 @@ import { ToggleTabsComponent } from './components/toggle-tabs/toggle-tabs.compon
     MatButtonToggleModule,
     FormsModule,
     ReactiveFormsModule,
-    MatIconModule
+    MatIconModule,
+    NgApexchartsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

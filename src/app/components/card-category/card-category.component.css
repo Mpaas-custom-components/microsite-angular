@@ -1,0 +1,44 @@
+.category-container{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+
+.category-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+.category-navigate{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.category-icon{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border:1px solid grey
+}
+.navigate-icon{
+    display: flex;
+}
+
+.text-bold{
+    color: var(--functional-bw-tones-black, #0E0E0E);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Mobile/Body/Body 1 - DemiBold */
+font-family: TT Interphases Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 22.4px */
+}

@@ -10,4 +10,5 @@ import {FormControl, FormsModule, ReactiveFormsModule} from '@angular/forms';
 export class HomeComponent {
   fontStyleControl = new FormControl('');
   fontStyle?: string;
+  dataTabs=['Pemasukan','Pengeluaran']
 }

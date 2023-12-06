@@ -1,5 +1,4 @@
 .container {
-    background-color: aquamarine;
     display: flex;
     flex-direction: column;
 }
@@ -175,5 +174,34 @@
 
 .header-toggle{
     margin-top:55px;
-    background:red;
+    padding: 16px 24px;
+}
+
+.content-chart{
+    width: 355px;
+    height: 256px;
+    margin: auto;
+    border: 1px solid #F0F0F0;
+    border-radius:20px;
+    padding: 10px;
+}
+.chart-donut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-bold{
+    color: var(--functional-bw-tones-black, #0E0E0E);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Mobile/Headline/Headline 4 - Bold */
+font-family: TT Interphases Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 19.2px */
+}
+
+.content-categori{
+   padding: 20px; 
 }

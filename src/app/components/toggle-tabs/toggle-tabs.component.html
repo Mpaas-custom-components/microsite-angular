@@ -1,4 +1,5 @@
 <div class="tabs-container">
-    
-
+    <div [ngClass]="isActive == data ? 'active':'' " *ngFor="let data of dataTabs" (click)="onClick(data)" class="tabs-content"> 
+        <span  class="text-tabs">{{data}}</span>
+    </div>
 </div>
