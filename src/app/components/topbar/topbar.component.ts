@@ -9,6 +9,7 @@ import { Location } from '@angular/common';
 export class TopbarComponent {
   @Input() title: String = '';
   @Input() backArrow: Boolean | undefined = true;
+  @Input() backgroundColor: String | undefined = "#F9F9F9"
 
   constructor(private location: Location) {
     this.title = "Default"

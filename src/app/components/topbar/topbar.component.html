@@ -1,6 +1,6 @@
 <nav>
-    <div class="navbar-background">
-        <div class="navbar-back">
+    <div class="navbar-background" [style.backgroundColor]="backgroundColor">
+        <div class="navbar-back" (click)="goBack()">
             <img *ngIf="backArrow" src="assets/svg/ic_common_arrow_back.svg" alt="arrow">
         </div>
         <div class="navbar-title">

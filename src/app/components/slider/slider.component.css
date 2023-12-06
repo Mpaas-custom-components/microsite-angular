@@ -1,0 +1,59 @@
+.slider-container {
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+}
+
+.slider-top {
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.slider-icon {
+    width: 36px;
+    height: 5px;
+    background: #C6C6C6;
+    border-radius: 5px
+}
+
+.slider-title {
+    color: #0E0E0E;
+    font-size: 16px;
+    font-family: TT Interphases Pro;
+    font-weight: 700;
+    line-height: 19.20px;
+    word-wrap: break-word
+}
+
+.slider-title-container {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.slider-content {
+    padding: 24px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.content-date-container {
+    width: 100%;
+    border-bottom: solid 0.3px #02C794;
+    padding-bottom: 2px;
+}
+
+.content-date {
+    color: #0E0E0E;
+    font-size: 14px;
+    font-family: TT Interphases Pro;
+    font-weight: 700;
+    line-height: 16.80px;
+    word-wrap: break-word;
+}
+

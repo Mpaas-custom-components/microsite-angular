@@ -1,6 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .header {
@@ -75,7 +76,7 @@
     padding: 16px;
     position: absolute;
     bottom: -50px;
-    width: 350px;
+    width: 80%;
     border-radius: 16px;
     border: 1px solid gray;
 

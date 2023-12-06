@@ -17,6 +17,11 @@ import { NgApexchartsModule } from 'ng-apexcharts';
 import { PieChartComponent } from './components/pie-chart/pie-chart.component';
 
 
+import { BreakdownCategoryComponent } from './pages/breakdown-category/breakdown-category.component';
+import { SliderComponent } from './components/slider/slider.component';
+import { TransactionCardComponent } from './components/transaction-card/transaction-card.component';
+
+
 
 @NgModule({
   declarations: [
@@ -26,7 +31,10 @@ import { PieChartComponent } from './components/pie-chart/pie-chart.component';
     HomeComponent,
     ToggleTabsComponent,
     CardCategoryComponent,
-    PieChartComponent
+    PieChartComponent,
+    BreakdownCategoryComponent,
+    SliderComponent,
+    TransactionCardComponent
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,6 @@
 .navbar-background {
     height: 4rem;
     width: calc(100% - 48px);
-    background-color: #F9F9F9;
     padding: 6px 24px 6px 24px;
     justify-content: space-between;
     align-items: center;
