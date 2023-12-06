@@ -6,6 +6,14 @@ import { AppComponent } from './app.component';
 import { CardComponent } from './components/card/card.component';
 import { TopbarComponent } from './components/topbar/topbar.component';
 import { HomeComponent } from './pages/home/home.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {MatIconModule} from '@angular/material/icon';
+import {FormControl, FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { ToggleTabsComponent } from './components/toggle-tabs/toggle-tabs.component';
+
+
 import { BreakdownCategoryComponent } from './pages/breakdown-category/breakdown-category.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { TransactionCardComponent } from './components/transaction-card/transaction-card.component';
@@ -16,6 +24,7 @@ import { TransactionCardComponent } from './components/transaction-card/transact
     CardComponent,
     TopbarComponent,
     HomeComponent,
+    ToggleTabsComponent,
     BreakdownCategoryComponent,
     SliderComponent,
     TransactionCardComponent
@@ -23,6 +32,11 @@ import { TransactionCardComponent } from './components/transaction-card/transact
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
+    MatButtonToggleModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

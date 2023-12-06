@@ -1,0 +1,179 @@
+.container {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #3AA8A0;
+    height: 205px;
+    padding: 24px;
+    position: relative;
+
+}
+
+.period-section {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    color: white;
+    color: var(--functional-bw-tones-white, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Mobile/Body/Body 2 - DemiBold */
+    font-family: TT Interphases Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 19.6px */
+
+}
+
+.period-icon {
+    padding: 8px;
+}
+
+.period-title {
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    align-items: center;
+}
+
+.acount-selection {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px;
+    color: var(--functional-bw-tones-black, #0E0E0E);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Mobile/Body/Body 2 - Regular */
+    font-family: TT Interphases Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 19.6px */
+}
+
+.acount-title {
+    width: 100%;
+}
+
+.cashflow-card {
+
+    gap: var(--spacing-spacing-416-px, 16px);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    position: absolute;
+    bottom: -50px;
+    width: 350px;
+    border-radius: 16px;
+    border: 1px solid gray;
+
+}
+
+.cashflow-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.cashflow-top-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-spacing-14-px, 4px);
+    flex: 1 0 0;
+}
+
+.top-title-icon {
+    background-color: green;
+    width: 8px;
+    height: 8px;
+    border-radius: 2px;
+}
+
+.top-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.cashflow-value {
+    color: var(--functional-bw-tones-black, #0E0E0E);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Mobile/Body/Body 2 - DemiBold */
+    font-family: TT Interphases Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 19.6px */
+}
+
+.icon-line {
+    width: 1px;
+    height: 24px;
+    background: grey;
+}
+
+.casflow-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+}
+
+.title-normal {
+    color: var(--functional-bw-tones-black, #0E0E0E);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Mobile/Body/Body 2 - Regular */
+    font-family: TT Interphases Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 19.6px */
+}
+
+.headline3 {
+    color: var(--functional-status-success-success-dark, #02C794);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Mobile/Headline/Headline 3 - Bold */
+    font-family: TT Interphases Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 21.6px */
+}
+
+.mat-button-toggle-group {
+    margin-left: 12px;
+  }
+
+.header-toggle{
+    margin-top:55px;
+    background:red;
+}
