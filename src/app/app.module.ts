@@ -13,13 +13,13 @@ import {MatIconModule} from '@angular/material/icon';
 import {FormControl, FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { ToggleTabsComponent } from './components/toggle-tabs/toggle-tabs.component';
 import { CardCategoryComponent } from './components/card-category/card-category.component';
-import { NgApexchartsModule } from 'ng-apexcharts';
 import { PieChartComponent } from './components/pie-chart/pie-chart.component';
 
 
 import { BreakdownCategoryComponent } from './pages/breakdown-category/breakdown-category.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { TransactionCardComponent } from './components/transaction-card/transaction-card.component';
+
 
 
 
@@ -44,7 +44,6 @@ import { TransactionCardComponent } from './components/transaction-card/transact
     FormsModule,
     ReactiveFormsModule,
     MatIconModule,
-    NgApexchartsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
