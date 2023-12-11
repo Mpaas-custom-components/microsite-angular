@@ -7,14 +7,14 @@
         <span class="slider-title">Semua Transaksi</span>
     </div>
     <div class="slider-content">
-        <div class="slider-content-inner">
-            <div class="content-date-container">
-                <span class="content-date">25 Juni 2023</span>
-            </div>
+        <div class="content-date-container">
+            <span class="content-date">25 Juni 2023</span>
+        </div>
 
+        <div class="content-container">
             <app-transaction-card *ngFor="let transaction of transactions"
-                [transactionAmount]="transaction.transactionAmount" [transactionFrom]="transaction.trasnactionForm"
-                [transactionType]="transaction.transactionType"></app-transaction-card>
+            [transactionAmount]="transaction.transactionAmount" [transactionFrom]="transaction.trasnactionForm"
+            [transactionType]="transaction.transactionType"></app-transaction-card>
         </div>
     </div>
 </div>

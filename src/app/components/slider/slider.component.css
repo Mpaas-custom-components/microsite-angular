@@ -1,7 +1,8 @@
 .slider-container {
     width: 100%;
     background-color: white;
-    height: 1000px;
+    /* height: 1500px; */
+    height: calc(100% - 36px);
     overflow-y: hidden;
 }
 
@@ -40,7 +41,12 @@
 .slider-content {
     padding: 24px;
     overflow-y: auto;
-    height: calc(100% - 36px);
+    /* height: calc(100% - 36px); */
+    height: 1000px;
+}
+
+.content-container {
+    height: 1500px;
 }
 
 
@@ -57,8 +63,4 @@
     font-weight: 700;
     line-height: 16.80px;
     word-wrap: break-word;
-}
-
-.slider-content-inner {
-    min-height: 100%;
 }
