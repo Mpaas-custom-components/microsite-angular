@@ -19,6 +19,8 @@ import { PieChartComponent } from './components/pie-chart/pie-chart.component';
 import { BreakdownCategoryComponent } from './pages/breakdown-category/breakdown-category.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { TransactionCardComponent } from './components/transaction-card/transaction-card.component';
+import { PengeluaranComponent } from './components/pengeluaran/pengeluaran.component';
+import { PemasukanComponent } from './components/pemasukan/pemasukan.component';
 
 
 
@@ -34,7 +36,9 @@ import { TransactionCardComponent } from './components/transaction-card/transact
     PieChartComponent,
     BreakdownCategoryComponent,
     SliderComponent,
-    TransactionCardComponent
+    TransactionCardComponent,
+    PengeluaranComponent,
+    PemasukanComponent
   ],
   imports: [
     BrowserModule,
