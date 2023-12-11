@@ -29,11 +29,11 @@ export class BreakdownCategoryComponent {
       type: 'bar', //this denotes tha type of chart
 
       data: {// values on X-Axis
-        labels: ["January", "February", "March", "April"],
+        labels: ["1-8", "9-15", "15-22", "22-30"],
         datasets: [
           {
             label: "Sales",
-            data: ['467', '1000', '250', "2000"],
+            data: ['200000', '1500000', '350000', "700000",],
             backgroundColor: '#DADADA',
             borderRadius: 8,
           }
@@ -43,16 +43,27 @@ export class BreakdownCategoryComponent {
         scales: {
           x: {
             grid: {
-              offset: true
+              offset: true,
+              display: false
             }
           },
           y: {
+            position: "right",
             grid: {
-              offset: true,
-              display: false
+              offset: true
             },
             ticks: {
-              stepSize: 1000
+              stepSize: 100000,
+              callback: function(value, index, values) {
+                if (+value < 1_000_000) {
+                  const newVal = +value / 1_000
+                  return newVal + 'rb';
+                } else {       
+                  const newVal = +value / 1_000_000           
+                  return newVal + 'jt'
+                }
+              },
+              align: "inner"
             }
           }
         },
