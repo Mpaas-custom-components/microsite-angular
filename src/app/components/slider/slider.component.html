@@ -1,21 +1,20 @@
-<div class="slider-container" (touchstart)="onTouchStart($event)" (touchmove)="onTouchMove($event)"
-    (touchend)="onTouchEnd($event)" [style]="style">
-    <div class="slider-top">
+<div class="slider-container" [style]="style">
+    <div class="slider-top" (touchstart)="onTouchStart($event)" (touchmove)="onTouchMove($event)"
+        (touchend)="onTouchEnd($event)">
         <div class="slider-icon"></div>
     </div>
     <div class="slider-title-container">
         <span class="slider-title">Semua Transaksi</span>
     </div>
     <div class="slider-content">
-        <div class="content-date-container">
-            <span class="content-date">25 Juni 2023</span>
-        </div>
+        <div class="slider-content-inner">
+            <div class="content-date-container">
+                <span class="content-date">25 Juni 2023</span>
+            </div>
 
-        <div *ngFor="let transaction of transactions">
-            <app-transaction-card [transactionAmount]="transaction.transactionAmount"
-                [transactionFrom]="transaction.trasnactionForm"
+            <app-transaction-card *ngFor="let transaction of transactions"
+                [transactionAmount]="transaction.transactionAmount" [transactionFrom]="transaction.trasnactionForm"
                 [transactionType]="transaction.transactionType"></app-transaction-card>
         </div>
-
     </div>
 </div>

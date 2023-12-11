@@ -47,6 +47,17 @@ export class SliderComponent {
       transactionAmount: "+Rp1.500.000",
       trasnactionForm: "BNI - Giri Payumbuan"
     },
+    {
+      transactionType: "Uang Masuk",
+      transactionAmount: "+Rp1.500.000",
+      trasnactionForm: "BNI - Giri Payumbuan"
+    },
+    {
+      transactionType: "Uang Masuk Terakhir",
+      transactionAmount: "+Rp1.500.000",
+      trasnactionForm: "BNI - Giri Payumbuan"
+    },
+
   ]
 
   private initY = 0
